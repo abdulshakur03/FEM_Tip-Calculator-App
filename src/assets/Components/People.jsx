@@ -4,7 +4,7 @@ import people from "../Images/icon-person.svg";
 export default function ({ editableRef, num, handleBill, focusParagraph }) {
   return (
     <div>
-      <h2>Bill</h2>
+      <h2>Number of People</h2>
 
       <div
         onClick={focusParagraph}
