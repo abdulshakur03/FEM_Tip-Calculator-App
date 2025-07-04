@@ -1,8 +1,7 @@
 import React from "react";
+import people from "../Images/icon-person.svg";
 
-import dollar from "../Images/icon-dollar.svg";
-export default function Bill({ editableRef, num, handleBill, focusParagraph }) {
-  
+export default function ({ editableRef, num, handleBill, focusParagraph }) {
   return (
     <div>
       <h2>Bill</h2>
@@ -11,7 +10,7 @@ export default function Bill({ editableRef, num, handleBill, focusParagraph }) {
         onClick={focusParagraph}
         className="flex gap-20 items-center bg-amber-100 w-auto"
       >
-        <img src={dollar} alt="" />
+        <img src={people} alt="" />
         <input
           type="number"
           value={num}
